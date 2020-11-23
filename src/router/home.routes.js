@@ -4,8 +4,11 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import FeatherIcons from 'react-native-vector-icons/Feather';
 import IoniconsIcon from 'react-native-vector-icons/Ionicons';
+
 import HomeScreen from '../screens/HomeScreen';
+
 import logo from '../assets/images/instagram.png';
+
 const HomeStack = createStackNavigator();
 
 const HomeRoutes = () => (

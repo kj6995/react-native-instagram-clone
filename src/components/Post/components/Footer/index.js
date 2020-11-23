@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import {View, Text, TouchableWithoutFeedback} from 'react-native';
-import styles from './styles';
+
 import ADIcon from 'react-native-vector-icons/AntDesign';
 import FontistoIcon from 'react-native-vector-icons/Fontisto';
 import IoniconsIcon from 'react-native-vector-icons/Ionicons';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
+
+import styles from './styles';
 
 const Footer = ({likesCount: likesCountProp, caption, postedAt}) => {
   const [isLike, setIsLike] = useState(false);
